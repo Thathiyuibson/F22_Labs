@@ -1,0 +1,43 @@
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    background-color: #eef1f7 ;
+    margin-top: 20px;
+  }
+  
+  .top-footer {
+    margin-bottom: 10px;
+
+  }
+  
+  .visit-link {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 19px;
+    font-size: 14px;
+    color: rgb(104,117,226);
+  }
+  
+  .bottom-footer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bottom-footer p {
+    margin-right: 10px;
+    font-family:sans-serif ;
+    font-weight: 500;
+    line-height: 19px;
+    color: rgb(92, 101, 117);
+    font-size: 14px;
+
+  }
+  
+  .bottom-footer img {
+    width: 100px;
+  }
+  

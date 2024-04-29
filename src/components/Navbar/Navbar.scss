@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    .wrapper{
+        padding: 5px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .item{
+        display: flex;
+        align-items: center;
+        .link{
+            &:hover {
+                color: rgb(247, 170, 87);
+            }
+        }
+    }
+
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .logo img {
+        max-width: 100px;
+        display: block;
+        margin: 0 auto;
+        width: 70px;
+        margin-left: 120px;
+    }
+    .center{
+        display: flex;
+        gap: 60px;
+        font-size: 16px;
+        font-weight: 500;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        line-height: 24px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        
+    }
+    .right{
+        margin-right: 190px;
+        margin-left: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn{
+        background-color: black;
+        color: white;
+        padding: 10px 5px 10px 5px;
+        width: 110px;
+        height: 50px;
+        font-size: 15px;
+        font-weight: 1000;
+        cursor: pointer;
+        border-radius: 2px;
+        border: none;
+        text-align: center;
+        font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+    }
+    .btn:hover{
+        background-color: rgb(253, 171, 79);
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: rgba(0, 0, 0, 0.1); 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    }
+}

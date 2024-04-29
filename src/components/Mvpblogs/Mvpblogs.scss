@@ -1,0 +1,88 @@
+// .mvp-main{
+//     background-color: black;
+// }
+
+/* Mvpblogs.scss */
+
+.mvp-main {
+    background-color: black;
+    padding: 100px 50px 100px 50px;
+    margin-bottom: 30px;
+  }
+  
+  .mvp-blog {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mvp1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 700px;
+  }
+  
+  .mvp-image {
+    width: 430px; /* Adjust the width as needed */
+    height: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    &:hover{
+        transform: scaley(1.1);
+        transition: 1s ease-out;
+    }
+  }
+  
+  .mvp-text {
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .mvp-text h2{
+    font-weight: 700;
+    // border: 1px solid white;
+    color: rgb(255,255,255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 28px;
+    font-size: 17px;
+    width: 470px;
+    margin-left: 40px;
+    text-align: start;
+  }
+  
+  .mvp-text h3{
+    color: rgb(241,175,96);
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: start;
+    margin-left: 40px;
+  }
+
+
+  .mvp-text h5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: -260px;
+    margin-top: -10px;
+  }
+
+
+  .mvp-text h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: start;
+    width: 400px;
+    margin-left: 40px;
+
+  }

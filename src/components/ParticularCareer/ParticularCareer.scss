@@ -1,0 +1,400 @@
+.particular-career{
+    position: relative;
+    background-color: #171b27;
+    width: 100%;
+    height: 380px;
+}
+
+.logo-container {
+    position: absolute;
+    top: 10;
+    left: 0;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    margin-top: 6px;
+    margin-left: 70px;
+  }
+
+  .career-backgrounds {
+    position: relative;
+  }
+
+  .career-backgrounds img {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    height: 370px;
+  }
+
+  .career-head {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+  .career-head h3{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgb(255,255,255);
+    line-height: 0.5rem;
+    font-size: 1.125rem;
+    padding: 0 2rem;
+    word-break: break-word;
+    margin-bottom: 30px;
+
+  }
+
+
+  .career-head h1{
+    font-family: sans-serif;
+    line-height: 1;
+    position: relative;
+    font-weight: 500;
+    word-break: break-word;
+    font-size: 3rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+
+  }
+
+  .interested-button {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+
+  .interested-button button{
+    background-color: #6875E2;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    border-radius: 4px;
+    padding: 10px 16px;
+    width: 200px;
+
+
+    &:hover{
+        opacity: 80%;
+    }
+
+  }
+
+  .refer-icons{
+    position: absolute;
+    top: 10;
+    margin-top: -50px;
+    color: white;
+    margin-left: 615px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .refer-icons svg {
+    font-size: 26px; /* Adjust the size as needed */
+    margin-right: 30px; /* Adjust the space between icons */
+    position: relative;
+    cursor: pointer;
+
+  }
+
+  .refer-icons > *:hover {
+    color:#0000ee ;
+    transform: scaleY(1.2);
+  }
+
+  .refer-icons > * {
+    transition: background-color 0.3s ease;
+    
+  }
+
+
+  .breadcrumbs h5{
+    margin-top: -180px;
+    margin-left: 240px;
+    // text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(104,117,226);
+    line-height: 19px;
+    font-family: sans-serif;
+    cursor: pointer;
+
+    &:hover{
+        text-decoration: underline;
+
+    }
+  }
+
+  .breadcrumbs {
+    display: flex;
+    align-items: center;
+  }
+
+  .breadcrumbs h6{
+    margin-top: 15px;
+    margin-left: 4px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+
+  }
+
+  .breadcrumbs a {
+    text-decoration: none; 
+    color: inherit;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 19px;
+    color: #0000ee;
+    padding-left: 200px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 80px;
+    text-align: center;
+  }
+  
+  .parent-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-child {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 370px;
+    width: 600px;
+    // border: 1px solid;
+  }
+
+  .jd h1{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(35,41,51);
+    line-height: 19px;
+    font-size: 18px;
+  }
+
+  .jd h3{
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 27px;
+    color: rgb(23,27,39);
+    font-weight: 700;
+  }
+
+  .jd p{
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 33px;
+    font-weight: 400;
+    color: rgb(23, 27, 39);
+  }
+
+  .jd span{
+  }
+  
+  .right-child {
+    flex: 0 0 auto;
+    width: 300px;
+    text-align: right;
+    margin-left: 800px;
+    margin-top: -2130px;
+    // border: 1px solid;
+  }
+
+  .right-child h2{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(35,41,51);
+    font-size: 18px;
+    line-height: 19px;
+  }
+
+  .requirements h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(35,41,51);
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .requirements p{
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 27px;
+    color: rgb(23,27,39);
+    font-weight: 400;
+  }
+  
+
+  .points{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .points p{
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(23,27,39);
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  .benefits h2{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(35,41,51);
+    font-weight: 700;
+    line-height: 27px;
+  }
+
+  .benefits h3{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(23,27,39);
+    line-height: 27px;
+    font-size: 15px;
+  }
+
+  .benefits p{
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(23,27,39);
+    font-weight: 500;
+  }
+
+  .down-interest button{
+    background-color: #6875e2;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 1px;
+    width: 160px;
+    font-family: sans-serif;
+  }
+
+.work-experiance{
+  margin-left: 160px;
+}
+.industry{
+  margin-left: 160px;
+}
+.city{
+  margin-left: 160px;
+}
+.state{
+  margin-left: 160px;
+}
+.country{
+  margin-left: 160px;
+}
+.zipcode{
+  margin-left: 160px;
+}
+.right-child h4{
+  margin-right: 23px;
+  margin-top: 1px;
+  color: rgb(92,101,117);
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  // border: 1px solid;
+}
+
+.right-child h3{
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(35,41,51);
+  line-height: 19px;
+}
+
+
+
+.city h4{
+  margin-right: 115px;
+  // margin-top: 1px;
+}
+.industry h4{
+  margin-right: 90px;
+}
+
+.state h4{
+  margin-right: 90px;
+}
+
+.country h4{
+  margin-right: 90px;
+}
+
+.zipcode h4{
+  margin-right: 30px;
+}
+
+
+.work-experiance h3{
+  margin-right: 72px;
+  margin-top: -20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(23,27,39);
+}
+.industry h3{
+  margin-right: 60px;
+  margin-top: -20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(23,27,39);
+}
+.city h3{
+  margin-right: 90px;
+  margin-top: -20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(23,27,39);
+  
+}
+.state h3{
+  margin-right: 60px;
+  margin-top: -20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(23,27,39);
+}
+.country h3{
+  margin-right: 110px;
+  margin-top: -20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(23,27,39);
+}
+.zipcode h3{
+  margin-right: 88px;
+  margin-top: -20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(23,27,39);
+}
+
+
+.zoho{
+  margin-top: 1800px;
+}

@@ -1,0 +1,196 @@
+.join{
+    text-align: center;
+    justify-content: center;
+    // border: 1px solid black;
+    margin-bottom: 20px;
+    margin-left: 450px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(35,41,51);
+    font-size: 26px;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+.openings{
+    text-align: center;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: -10px;
+    font-family: sans-serif;
+    color: rgb(92,101,117);
+    line-height: 21px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.careers {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .left-career {
+    width: 30%;
+    padding: 80px;
+    margin-top: -227px;
+    margin-left: -660px;
+
+  }
+  
+  .filter {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 300px;
+    font-family: sans-serif;
+    line-height: 16px;
+    color: rgb(35,41,51);
+  }
+  
+  .filter-heading {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(92,101,117);
+    line-height: 16px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+  }
+  
+  .inputcareer {
+    margin-top: 10px;
+    border: 1px solid rgb(213, 208, 208);
+    padding: 20px;
+    width: 290px;
+
+  }
+  
+  .inputcareer input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+
+  .right-career{
+    margin-left: -180px;
+    margin-top: 188px;
+    display: flex;
+  }
+  
+  .input-box{
+    display: flex;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 1px solid rgb(213, 208, 208);
+    width: 230px;
+    height: 38px;
+
+  }
+
+  .input-box input[type="text"] {
+    width: 200px;
+    margin-top: 5px;
+    height: 13px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 400;
+    border: none;
+  }
+
+  .input-box span{
+    cursor: pointer;
+    align-items: center;
+    padding-top: 6px;
+    padding-left: 2px;
+
+  }
+
+
+  .search-button{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    line-height: 19px;
+    font-family: sans-serif;
+    background-color:#6875e2;
+    margin-left: 60px;
+    border-radius: 2px;
+    border: none;
+  }
+
+  .career-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    // border: 1px solid;
+    margin-top: 70px;
+    margin-left: -700px;
+  }
+
+  .career-card{
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+    width: 730px;
+
+  }
+
+  .job-card {
+    // background-color: #f0f8ff;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+    height: 170px;
+    display: flex;
+    width: 673px;
+    height: 150px;
+
+    &:hover{
+      background-color: #f0f8ff;
+    }
+    
+  }
+
+  .job-card h1 {
+    color: rgb(104,117,226);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+
+  }
+.job-card p {
+font-weight: 500;
+font-family: sans-serif;
+line-height: 19px;
+font-size: 15px;
+color: rgb(23, 27,39);
+width: 400px;
+}
+
+.job-card h3{
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 19px;
+  font-size: 15px;
+  color: rgb(23,27,39);
+  text-align: justify;
+}
+
+.full-time{
+  margin-left: 205px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+
+}
