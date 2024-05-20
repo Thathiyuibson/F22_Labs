@@ -11,7 +11,7 @@ const CareerAnnouncement = () => {
         </Link>
         <nav className='menu'>
           <ul>
-            <li><Link to='/about'>ABOUT</Link></li>
+            <li><Link to='/'>HOME</Link></li>
             <li><Link to='/services'>SERVICES</Link></li>
             <li><Link to='/work'>WORK</Link></li>
             <li><Link to='/walloflove'>WALL OF LOVE</Link></li>

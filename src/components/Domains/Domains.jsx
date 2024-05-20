@@ -4,7 +4,7 @@ import './Domains.scss';
 
 const Domains = () => {
   return (
-    <div>
+    <div className='domains'>
       <h1 className='headings'>Domains we've worked on</h1>
       <div className='domains-grid'>
         {domainsWorked.map(domain => (

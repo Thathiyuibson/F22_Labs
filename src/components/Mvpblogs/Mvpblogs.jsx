@@ -5,6 +5,7 @@ import './Mvpblogs.scss'
 
 const Mvpblogs = () => {
   return (
+    <div>
     <div className='mvp-main'>
         <div className='mvp-blog'>
             {mvpblogsdata.map(blog => (
@@ -21,6 +22,30 @@ const Mvpblogs = () => {
                 </div> 
             ))}
         </div>
+    </div>
+    <div className='mvp-categories'>
+                {/* Render categories */}
+                <div className='category-scroll'>
+                    {[
+                        'HEADLESS SHOPIFY',
+                        'HIRE DEVELOPERS',
+                        'MVP DEVELOPMENT',
+                        'NO CODE',
+                        'QUALITY ASSURANCE TESTING',
+                        'SAAS DEVELOPMENT',
+                        'SERVERLESS',
+                        'TECHNOLOGY',
+                        'GENERAL'
+                    ].map((category, index) => (
+                        <div className='category' key={index}>
+                            <Link to={`/category/${category}`} className='category-link'>
+                                {category}
+                            </Link>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            <h1 className='upcoming-blogs'>More Blogs Coming Soon</h1>
     </div>
   )
 }

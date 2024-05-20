@@ -4,6 +4,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import XIcon from '@mui/icons-material/X';
+import { Link } from 'react-router-dom';
 
 
 
@@ -30,7 +31,7 @@ const Footer = () => {
           <span>Blog</span>
           <span>Contact Us</span>
         </div>
-        <div className='item'>
+        <div className='item2'>
           <h1>Services</h1>
           <span>Planning & Roadmapping</span>
           <span>Design Support</span>
@@ -72,7 +73,10 @@ const Footer = () => {
       </div>
       <div className='bottom'>
         <div className='copyrights'>
-        © Copyright 2024, F22 Labs Global Private Limited. All rights reserved.
+          <span>
+          © Copyright 2024, F22 Labs Global Private Limited. All rights reserved.
+          </span>
+        
         </div>
       </div>
     </div>

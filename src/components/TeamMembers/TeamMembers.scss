@@ -186,5 +186,84 @@ button:hover {
     border: none;
 }
 
+@media screen and (max-width: 786px) {
+    .container1{
+        // border: 1px solid;
+        width: 768px;
+        margin-left: -30px;
+        margin-top: -90px;
+        margin-right: -60px;
+        height: 500px;
+    }
+
+    .team{
+        margin-left: 20px;
+    }
+
+    .desc1{
+        margin-top: 50px;
+    }
+
+    .button-container{
+        // border: 1px solid;
+        width: 280px;
+        margin-left: 245px;
+    }
+    .button-container button{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bubbleimg-right{
+        display: none;
+        // margin-top: 170px;
+    }
+
+    .bubbleimg-left{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .team{
+        width: 1200px;
+        font-size: 90px;
+        margin-left: 220px;
+    }
+
+    .desc1 p{
+        font-size: 50px;
+        width: 1600px;
+        text-align: center;
+        margin-top: 150px;
+        line-height: 70px;
+    }
+
+    .container1{
+        // border: 1px solid;
+        width: 1670px;
+        height: 1200px;
+        margin-left: 10px;
+    }
+
+    .button-container{
+        // border: 1px solid;
+        width: 700px;
+        margin-left: 450px;
+        margin-top: 120px;
+        margin-bottom: 80px;
+        height: 300px;
+        padding-top: 20px;
+
+    }
+
+    .button-container button{
+        width: 500px;
+        height: 140px;
+        font-size: 50px;
+    }
+}
+
 
 

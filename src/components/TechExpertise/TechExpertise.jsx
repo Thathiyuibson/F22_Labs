@@ -4,7 +4,7 @@ import './TechExpertise.scss';
 
 const TechExpertise = () => {
   return (
-    <div>
+    <div className='tech-expertise'>
       <h1 className='heading3'>Our Tech Expertise</h1>
       <div className='domain-grids'>
         {ourTechExpertise.map(domain => (
@@ -18,7 +18,9 @@ const TechExpertise = () => {
                 more
             </div>
         </div>
-        <button className='center-btn'>See All</button>
+        <div className='center-btn'>
+        <button>See All</button>
+        </div>
       </div>
     </div>
   );

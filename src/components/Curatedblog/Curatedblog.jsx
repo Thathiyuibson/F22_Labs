@@ -3,8 +3,8 @@ import './Curatedblog.scss'
 
 function CuratedBlog() {
   return (
-    <div>
-      <h1>our curated blog</h1>
+    <div className='currated-blog'>
+      <h6>our curated blog</h6>
     </div>
   )
 }

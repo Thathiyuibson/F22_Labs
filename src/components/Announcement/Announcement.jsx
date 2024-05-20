@@ -12,8 +12,8 @@ const Announcement = () => {
             <h1 className='centered-text'>We Build Web and Mobile Applications</h1>
             <h1 className='centered-text'>Have an idea in mind?</h1>
         </div>
-        <div className='btn centered-button'>
-            <button>Let's Chat</button>
+        <div className='lets-chat'>
+            <button className='lets-chat-btn'>Let's Chat</button>
         </div>
     </div>
   );

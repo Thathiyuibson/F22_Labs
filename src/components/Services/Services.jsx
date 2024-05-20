@@ -16,9 +16,9 @@ const Services = () => {
                             <img className='iconimage' key={service.id} src={service.img} alt='' />
                             <h1 className='servicelist'>{service.text}</h1>
                         </div>
-                        <ArrowForwardIcon />
+                        <ArrowForwardIcon/>
                     </div>
-                    <hr style={{width:'100%'}}/>
+                    <hr style={{width:'98%'}}/>
                     </div>
                 ))}
             </div>

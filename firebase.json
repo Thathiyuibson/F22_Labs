@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "f22lab",
+    "public": "dist",  
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
